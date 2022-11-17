@@ -1,0 +1,12 @@
+body {
+    margin: 0;
+}
+h1 {
+    font-size: 50px;
+}
+header {
+    color: black;
+    font-style: bold;
+    margin: 0;
+    text-align: center;
+}

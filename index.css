@@ -1,0 +1,39 @@
+/*
+    Maximum Blue: #64A6BD 
+    Cadet Grey: #90A8C3
+    Blue Bell: #ADA7C9
+    Thistle: #D7B9D5
+    Mimi Pink: #F4CAE0
+    Granite Gray: #66666E
+*/
+
+body {
+    margin: 0;
+}
+nav {
+    display: flex;
+    margin-top: 600px;
+    text-align: center;
+}
+nav a {
+    text-decoration: none;
+    font-size: 50px;
+    padding: 20px;
+    color: #F4CAE0;
+}
+header {
+    background-color: #66666E;
+    display: grid;
+    grid-template-rows: auto auto;
+    grid-template-columns: 100px auto 100px;
+    text-align: center;
+    justify-content: center;
+    margin: 0;
+}
+.sunsetphoto {
+    grid-row: 1/2;
+    grid-column: 2/3;
+    opacity: 80%;
+    margin-top: 50px;
+    box-shadow: 0px 0px 20px #D7B9D5;
+}
